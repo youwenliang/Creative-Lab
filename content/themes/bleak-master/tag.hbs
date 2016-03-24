@@ -2,6 +2,9 @@
 
 <header id="header" class="header{{#if tag.image}} has-cover{{else}}{{#if @blog.cover}} has-cover{{/if}}{{/if}}">
 	<div class="inner">
+		<a class="header-title" href="{{@blog.url}}">
+			<img class="header-logo" src="{{@blog.logo}}" alt="Logo" />
+		</a>
 		<span class="header-title">
 			<h1 class="header-name">{{tag.name}} <em>{{pagination.total}}</em></h1>
 			{{#if tag.description}}
