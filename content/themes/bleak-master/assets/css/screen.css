@@ -1,0 +1,488 @@
+
+/* Nav */
+
+/* Navigation */
+/* line 167, ../sass/main.scss */
+.navigation.nav-light {
+  height: 185px;
+  position: absolute;
+  padding-top: 35px;
+  /*margin-top: -40px;*/
+  width: 100%;
+  z-index: 10000;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+/* line 175, ../sass/main.scss */
+.navigation.nav-light ul {
+  margin-top: -5px;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+@media screen and (max-height: 515px) {
+  /* line 179, ../sass/main.scss */
+  .navigation.nav-light ul.front {
+    margin-top: -40px;
+  }
+}
+/* line 184, ../sass/main.scss */
+.navigation.nav-light li.active a {
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  border-bottom: 3px #f7f7f7 solid;
+}
+/* line 188, ../sass/main.scss */
+.navigation.nav-light li a {
+  font-size: 12.6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 2.8px;
+  color: #f7f7f7;
+  margin: 0 20px;
+  padding-bottom: 5px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+/* line 198, ../sass/main.scss */
+.navigation.nav-light li a:hover {
+  text-decoration: none;
+  border-bottom: 3px #f7f7f7 solid;
+  opacity: 0.9;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+}
+
+/* line 206, ../sass/main.scss */
+.btn-light {
+  border-radius: 0;
+  color: #080808;
+}
+/* line 209, ../sass/main.scss */
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #080808;
+  opacity: 0.8;
+}
+
+/* line 167, ../sass/main.scss */
+.navigation.nav-dark {
+  height: 185px;
+  /*/margin-top: -40px;*/
+  position: absolute;
+  padding-top: 35px;
+  width: 100%;
+  z-index: 10000;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+/* line 175, ../sass/main.scss */
+.navigation.nav-dark ul {
+  margin-top: -5px;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+@media screen and (max-height: 515px) {
+  /* line 179, ../sass/main.scss */
+  .navigation.nav-dark ul.front {
+    margin-top: -40px;
+  }
+}
+/* line 184, ../sass/main.scss */
+.navigation.nav-dark li.active a {
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  border-bottom: 3px #222 solid;
+}
+/* line 188, ../sass/main.scss */
+.navigation.nav-dark li a {
+  font-size: 12.6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 2.8px;
+  color: #222;
+  margin: 0 20px;
+  padding-bottom: 5px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+/* line 198, ../sass/main.scss */
+.navigation.nav-dark li a:hover {
+  text-decoration: none;
+  border-bottom: 3px #222 solid;
+  opacity: 0.9;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+}
+
+/* line 206, ../sass/main.scss */
+.btn-dark {
+  border-radius: 0;
+  color: #dddddd;
+}
+/* line 209, ../sass/main.scss */
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  color: #dddddd;
+  opacity: 0.8;
+}
+
+/* line 216, ../sass/main.scss */
+.icontop {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  height: 70px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+}
+/* line 224, ../sass/main.scss */
+.icontop:hover {
+  opacity: 1;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 100ms cubic-bezier(0.475, 0.185, 0, 0.995);
+}
+@media screen and (max-height: 515px) {
+  /* line 229, ../sass/main.scss */
+  .icontop.front {
+    display: none !IMPORTANT;
+  }
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Footer */
+/* line 1123, ../sass/main.scss */
+.transition-moveup {
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#footer-all {
+  padding: 0px 0 57px 0;
+  background-color: #252525;
+}
+
+#footer-all i{
+  color: #FEFEFE !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+li a, .text-muted{
+  font-family: "apercubold","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.text-muted {
+  font-size: 12.6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  line-height: 1.75em;
+}
+
+.angle-up {
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+  width: 80px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 300ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -moz-transition: all 300ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  -o-transition: all 300ms cubic-bezier(0.475, 0.185, 0, 0.995);
+  transition: all 300ms cubic-bezier(0.475, 0.185, 0, 0.995);
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin-top: -10px;
+  margin-bottom: -30px;
+}
+
+.lg-icon {
+  font-size: 40px;
+}
+
+/* line 206, ../sass/main.scss */
+.btn-light {
+  border-radius: 0;
+  color: #080808;
+}
+/* line 209, ../sass/main.scss */
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #080808;
+  opacity: 0.8;
+}
+
+/* line 947, ../sass/main.scss */
+.social {
+  font-size: 16.8px;
+  padding: 10px 10px 0 8px;
+  margin: 0;
+  color: #333;
+}
+/* line 953, ../sass/main.scss */
+.social:hover {
+  color: #8cb8de !important;
+}
+
+#wrapper {
+  background: #F7F7F7 !important;
+  padding-bottom: 0 !important;
+}
+
+/* ==========================================================================
+   12. Animations
+   ========================================================================== */
+
+/* Used to fade in title/desc on the home page */
+@-webkit-keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/* Used to bounce .scroll-down on home page */
+@-webkit-keyframes bounce {
+    0%, 10%, 25%, 40%, 50% {
+        -webkit-transform: translateY(0) rotate(-90deg);
+                transform: translateY(0) rotate(-90deg);
+    }
+    20% {
+        -webkit-transform: translateY(-10px) rotate(-90deg);
+                transform: translateY(-10px) rotate(-90deg);
+    }
+    30% {
+        -webkit-transform: translateY(-5px) rotate(-90deg);
+                transform: translateY(-5px) rotate(-90deg);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0) rotate(-90deg);
+                transform: translateY(0) rotate(-90deg);
+    }
+    40% {
+        -webkit-transform: translateY(-10px) rotate(-90deg);
+                transform: translateY(-10px) rotate(-90deg);
+    }
+    60% {
+        -webkit-transform: translateY(-5px) rotate(-90deg);
+                transform: translateY(-5px) rotate(-90deg);
+    }
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on January 16, 2016 */
+@font-face {
+  font-family: 'apercubold_italic';
+  src: url("../fonts/apercu_bold_italic-webfont.eot");
+  src: url("../fonts/apercu_bold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_bold_italic-webfont.woff2") format("woff2"), url("../fonts/apercu_bold_italic-webfont.woff") format("woff"), url("../fonts/apercu_bold_italic-webfont.ttf") format("truetype"), url("../fonts/apercu_bold_italic-webfont.svg#apercubold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercubold';
+  src: url("../fonts/apercu_bold-webfont.eot");
+  src: url("../fonts/apercu_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_bold-webfont.woff2") format("woff2"), url("../fonts/apercu_bold-webfont.woff") format("woff"), url("../fonts/apercu_bold-webfont.ttf") format("truetype"), url("../fonts/apercu_bold-webfont.svg#apercubold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aperculight_italic';
+  src: url("../fonts/apercu_light_italic-webfont.eot");
+  src: url("../fonts/apercu_light_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_light_italic-webfont.woff2") format("woff2"), url("../fonts/apercu_light_italic-webfont.woff") format("woff"), url("../fonts/apercu_light_italic-webfont.ttf") format("truetype"), url("../fonts/apercu_light_italic-webfont.svg#aperculight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercuregular';
+  src: url("../fonts/apercu_light-webfont.eot");
+  src: url("../fonts/apercu_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_light-webfont.woff2") format("woff2"), url("../fonts/apercu_light-webfont.woff") format("woff"), url("../fonts/apercu_light-webfont.ttf") format("truetype"), url("../fonts/apercu_light-webfont.svg#apercuregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercumedium_italic';
+  src: url("../fonts/apercu_medium_italic-webfont.eot");
+  src: url("../fonts/apercu_medium_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_medium_italic-webfont.woff2") format("woff2"), url("../fonts/apercu_medium_italic-webfont.woff") format("woff"), url("../fonts/apercu_medium_italic-webfont.ttf") format("truetype"), url("../fonts/apercu_medium_italic-webfont.svg#apercumedium_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercumedium';
+  src: url("../fonts/apercu_medium-webfont.eot");
+  src: url("../fonts/apercu_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_medium-webfont.woff2") format("woff2"), url("../fonts/apercu_medium-webfont.woff") format("woff"), url("../fonts/apercu_medium-webfont.ttf") format("truetype"), url("../fonts/apercu_medium-webfont.svg#apercumedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercuitalic';
+  src: url("../fonts/apercu_regular_italic-webfont.eot");
+  src: url("../fonts/apercu_regular_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_regular_italic-webfont.woff2") format("woff2"), url("../fonts/apercu_regular_italic-webfont.woff") format("woff"), url("../fonts/apercu_regular_italic-webfont.ttf") format("truetype"), url("../fonts/apercu_regular_italic-webfont.svg#apercuitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercuregular';
+  src: url("../fonts/apercu_regular-webfont.eot");
+  src: url("../fonts/apercu_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu_regular-webfont.woff2") format("woff2"), url("../fonts/apercu_regular-webfont.woff") format("woff"), url("../fonts/apercu_regular-webfont.ttf") format("truetype"), url("../fonts/apercu_regular-webfont.svg#apercuregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
