@@ -63,16 +63,16 @@
                 $("html, body").animate({ scrollTop: 0 }, 1000);
                 return false;
             });
-        // if($(window).width()>1200)
-        //     $('.parallax').parallax("0%", 0.1);
-        $('.angle-up').hover(function() {
-            $(this).addClass('transition-moveup');
-            //console.log("...");
-
-        }, function() {
-            $(this).removeClass('transition-moveup');
-            //console.log("...!");
-        });
+        // // if($(window).width()>1200)
+        // //     $('.parallax').parallax("0%", 0.1);
+        // $('.angle-up').hover(function() {
+        //     $(this).addClass('transition-moveup');
+        //     //console.log("...");
+        //
+        // }, function() {
+        //     $(this).removeClass('transition-moveup');
+        //     //console.log("...!");
+        // });
     });
 })(jQuery);
 //     // Arctic Scroll by Paul Adam Davis

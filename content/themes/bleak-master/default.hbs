@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset "css/dependencies.css"}}" />
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 	<link rel="stylesheet" type="text/css" href="{{asset "css/font-awesome.min.css"}}" />
+	<script type="text/javascript" src="{{asset "js/jquery-1.11.0.js"}}"></script>
+	<script type="text/javascript" src="{{asset "js/jquery-ui.min.js"}}"></script>
 	{{ghost_head}}
 </head>
 
@@ -31,7 +33,7 @@
 			<!-- Footer -->
 			<footer class="text-center" id="footer-all">
 					</br>
-					<a href="#header" class="btn-dark btn-lg lg-icon angle-up"><i class="fa fa-angle-up"></i></a>
+					<a href="#ajax-container" id="scrolltop" class="btn-dark btn-lg lg-icon angle-up"><i class="fa fa-angle-up"></i></a>
 					<p class="text-center text-muted">&copy; 2015-2016 Youwen Design. All rights reserved.</p>
 					<a href="https://twitter.com/bigheadcool" target="_blank"><i class="fa fa-twitter fa-fw social"></i></a>
 					<a href="http://www.linkedin.com/pub/you-wen-liang/59/4b4/413" target="_blank"><i class="fa fa-linkedin fa-fw social"></i></a>
@@ -45,12 +47,15 @@
 	</section>
 
 	{{ghost_foot}}
-	<script type="text/javascript" src="{{asset "js/jquery-1.11.0.js"}}"></script>
-	<script type="text/javascript" src="{{asset "js/jquery-ui.min.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/dependencies.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
-	<script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-
-
+	<!-- <script type="text/javascript" src="{{asset "js/index.js"}}"></script> -->
+	<script>
+	$("#scrolltop").click(function() {
+			console.log("???");
+			$("html, body").animate({ scrollTop: 0 }, 1000);
+			return false;
+	});
+	</script>
 </body>
 </html>

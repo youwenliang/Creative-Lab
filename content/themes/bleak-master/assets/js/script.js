@@ -120,6 +120,12 @@ jQuery(function(a) {
                 k.hasClass("push-next") && (k.removeClass("push-next"), k.addClass("pushed-next")), k.hasClass("push-prev") && (k.removeClass("push-prev"), k.addClass("pushed-prev")), document.title = a("<textarea/>").html(e).text(), p.html(d), l.removeClass(), l.addClass(a("#body-class").attr("class")), NProgress.done(), p.fadeIn(500), a(document).scrollTop(0), setTimeout(function() {
                     k.removeClass("loading")
                 }, 50), i(), o = !1
+
+                // Scroll to Top
+                $("#scrolltop").click(function() {
+                    $("html, body").animate({ scrollTop: 0 }, 1000);
+                    return false;
+                });
             })
         })
     }), a("body").on("click", ".js-ajax-link", function(b) {
